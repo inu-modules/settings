@@ -9,12 +9,12 @@ use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
+use Inumodules\Settings\Commands\SettingsCommand;
+use Inumodules\Settings\Testing\TestsSettings;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Inumodules\Settings\Commands\SettingsCommand;
-use Inumodules\Settings\Testing\TestsSettings;
 
 class SettingsServiceProvider extends PackageServiceProvider
 {
