@@ -4,6 +4,7 @@ namespace Inumodules\Settings;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use Inumodules\Settings\Pages\SettingsPage;
 
 class SettingsPlugin implements Plugin
 {
@@ -14,7 +15,10 @@ class SettingsPlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-        //
+        $panel
+            ->pages([
+                SettingsPage::class,
+            ]);
     }
 
     public function boot(Panel $panel): void
