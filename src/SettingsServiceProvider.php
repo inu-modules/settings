@@ -103,8 +103,8 @@ class SettingsServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('settings', __DIR__ . '/../resources/dist/components/settings.js'),
-            Css::make('settings-styles', __DIR__ . '/../resources/dist/settings.css'),
-            Js::make('settings-scripts', __DIR__ . '/../resources/dist/settings.js'),
+            //Css::make('settings-styles', __DIR__ . '/../resources/dist/settings.css'),
+            //Js::make('settings-scripts', __DIR__ . '/../resources/dist/settings.js'),
         ];
     }
 
